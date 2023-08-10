@@ -11,6 +11,7 @@ public class Prime
             System.out.println("it is not prime");
             return;
         }
+        else{
             boolean flag=false;
             for(int i=2;i<=num/2;i++)
             {
@@ -29,5 +30,7 @@ public class Prime
                 System.out.println("it is a prime");
             }   
     }
+    }
+        
     
 }
